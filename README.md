@@ -1,3 +1,10 @@
+# Why this small project.
+
+We about to explore what component composition is, we are doing this by following the teaching on this website:
+
+https://www.developerway.com/posts/components-composition-how-to-get-it-right
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
