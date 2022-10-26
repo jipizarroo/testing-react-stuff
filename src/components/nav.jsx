@@ -1,4 +1,5 @@
 import React from 'react';
+import CCButton from './CCButton';
 
 import SimpleButton from "./Simplebutton";
 
@@ -10,8 +11,10 @@ const Navigation = () => {
     return (
       <>
         // Rendering out Button component in Navigation component. Composition!
-        <SimpleButton title="Create" onClick={onClickHandler} />
+        <SimpleButton title="Simple Button " onClick={onClickHandler} />
         ... // some other navigation code
+        // Rendering out button as CC in the nav
+        <CCButton onClick={onClickHandler}>CC Button</CCButton>
       </>
     );
   };
